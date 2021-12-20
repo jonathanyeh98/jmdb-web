@@ -1,0 +1,120 @@
+.App{
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: midnightblue;
+  height: 10vh;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px
+}
+
+#logo {
+  background-color: yellow;
+  width: min-content;
+  height: min-content;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 2.5vh;
+  align-items: center;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftside {
+  width: 50vw;
+  height: 87.5vh;
+}
+
+.left-content{
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.form-divider {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-button {
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-left: auto;
+  height: min-content;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 87.5vh;
+  overflow-y: auto;
+}
+
+.empty {
+  width: 20px;
+}
+
+.movie-poster {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.movie-buttons {
+  float: right;
+  height: min-content;
+  margin-bottom: 5px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 100;
+  box-shadow: 1px, 1px, 5px;
+}
+
+.card-content {
+  margin: 10px;
+}
+
+.card-title {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+}
+
+.movie-title {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.movie-description {
+  margin: 10px;
+}
+
+.box-shadow {
+  box-shadow: 1px, 1px, 5px;
+}
